@@ -7,6 +7,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   height: 100vh;
 }
@@ -85,14 +86,20 @@ body {
   background-color: #2b254e;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+.detail-section button:hover {
+  background-color: #5e5399;
 }
 
 .footer {
-  position: relative;
-  bottom: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   text-align: center;
   padding-bottom: 18px;
-  font-size: 12px;
+  font-size: 14px;
   font-style: italic;
 }
 
