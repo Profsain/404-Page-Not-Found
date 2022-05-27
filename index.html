@@ -4,22 +4,36 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- googl font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
   <!-- normlize css -->
   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.11.0/build/cssnormalize/cssnormalize-min.css">
   <!-- main css style -->
   <link rel="stylesheet" href="asset/styles/main.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   <title>404 Page Not Found</title>
 </head>
 <body>
+  <header class="header">
+    <p>404 page not found</p>
+  </header>
   <main class="container">
     <div class="img-section">
-      <img src="asset/images/Scarecrow.png" alt="scarecrow picture">
+      <img src="asset/images/Scarecrow.png" alt="scarecrow picture" class="animate__animated animate__backInLeft">
     </div>
     <div class="detail-section">
-      <h1 class="section-title">I have a bad news for you</h1>
+      <h1 class="animate__animated animate__backInRight">I have a bad news for you</h1>
       <p>The page you are looking for might be removed or is temporarily unavailable</p>
-      <button class="section-btn">Go to homepage</button>
+      <button>Go to homepage</button>
     </div>
   </main>
+  <footer class="footer">
+    <p class="footer-text">Develop by Profsain H. Mudi</p>
+  </footer>
 </body>
 </html>
