@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
+:root {
+  --primary-color: #2b254e;
+  --primary-font: 'Space Mono';
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -49,13 +54,13 @@ body {
 .detail-section h1 {
   width: 586px;
   max-width: 100%;
-  font-family: 'Space Mono';
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
   line-height: 75px;
   letter-spacing: -0.035em;
-  color: #2b254e;;
+  color: var(--primary-color);
 }
 
 .detail-section p {
@@ -75,7 +80,7 @@ body {
   width: 216px;
   height: 68px;
   margin-top: 76px;
-  font-family: 'Space Mono';
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -83,7 +88,7 @@ body {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #fff;
-  background-color: #2b254e;
+  background-color: var(--primary-color);
   border: none;
   border-radius: 8px;
   cursor: pointer;
